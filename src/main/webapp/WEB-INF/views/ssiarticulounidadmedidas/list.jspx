@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_ssigdl_sirc_domain_SsiArticuloUnidadMedida" items="${ssiarticulounidadmedidas}" z="6fvkE3GTRydk8iYIyT2vfEnX0ho=">
+        <table:table data="${ssiarticulounidadmedidas}" id="l_com_ssigdl_sirc_domain_SsiArticuloUnidadMedida" path="/ssiarticulounidadmedidas" typeIdFieldName="arumId" z="zLheIvN4lYFcValplfpENZAu7M8=">
+            <table:column id="c_com_ssigdl_sirc_domain_SsiArticuloUnidadMedida_arumDescripcion" property="arumDescripcion" z="qfI/ri4ifDnIRdMCkqbzlCedVbc="/>
+        </table:table>
+    </page:list>
+</div>

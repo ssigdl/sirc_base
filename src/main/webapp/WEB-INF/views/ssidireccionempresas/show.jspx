@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_ssigdl_sirc_domain_SsiDireccionEmpresa" object="${ssidireccionempresa}" path="/ssidireccionempresas" z="T9Hp+udTTY9MhXbq2OsIq87pf1Y=">
+        <field:display field="direContacto" id="s_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direContacto" object="${ssidireccionempresa}" z="qkj9PMO5RiwZwMBfJyg371ZqzkI="/>
+        <field:display field="direEmail" id="s_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direEmail" object="${ssidireccionempresa}" z="X1SVkFBVgBstvobdmA+9bzXP9pA="/>
+        <field:display field="direDireccion" id="s_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direDireccion" object="${ssidireccionempresa}" z="r/E1TKdh+9R2XUYrwGfTy+mtS9M="/>
+        <field:display field="direColonia" id="s_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direColonia" object="${ssidireccionempresa}" z="BD5Dr4wLfDHe3lUQ/Xy5PLOViBg="/>
+        <field:display field="direSucursal" id="s_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direSucursal" object="${ssidireccionempresa}" z="GnN2ijy/Q/j6tPzEi+aaXBiofaE="/>
+        <field:display field="direMunicipio" id="s_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direMunicipio" object="${ssidireccionempresa}" z="CoV9WBRCUADCsbo/YjjPX95wvA8="/>
+        <field:display field="direEstado" id="s_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direEstado" object="${ssidireccionempresa}" z="Bf73b+8+Zi2LbLDqjP3U1mfk+4E="/>
+    </page:show>
+</div>

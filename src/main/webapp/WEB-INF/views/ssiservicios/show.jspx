@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_ssigdl_sirc_domain_SsiServicio" object="${ssiservicio}" path="/ssiservicios" z="HQRhLJSyux3BLoTuA8wSg5k+DKY=">
+        <field:display field="servCatIdFk" id="s_com_ssigdl_sirc_domain_SsiServicio_servCatIdFk" object="${ssiservicio}" z="5zqsr9+ncekQSu/utv4dae9uNvg="/>
+        <field:display field="servNombre" id="s_com_ssigdl_sirc_domain_SsiServicio_servNombre" object="${ssiservicio}" z="WhSSIy+teaAGw/dGVKhpEIaVpf0="/>
+        <field:display field="servDescripcion" id="s_com_ssigdl_sirc_domain_SsiServicio_servDescripcion" object="${ssiservicio}" z="5+RQ/4F2ZMriAygvE979QHqk7tg="/>
+        <field:display field="servPrecio" id="s_com_ssigdl_sirc_domain_SsiServicio_servPrecio" object="${ssiservicio}" z="TdczUTvxTck57q4ejXhVsP/WlSg="/>
+        <field:display field="servImagen" id="s_com_ssigdl_sirc_domain_SsiServicio_servImagen" object="${ssiservicio}" z="UeR2FCMZ/mXlpfdAjs1/aXCIdLs="/>
+    </page:show>
+</div>

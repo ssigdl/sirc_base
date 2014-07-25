@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_ssigdl_sirc_domain_SsiCategoriaTemporal" idField="cattId" modelAttribute="ssiCategoriaTemporal" path="/ssicategoriatemporals" versionField="none" z="pCdo95AUMqYhh5zTZ9OzKj0OCEg=">
+        <field:input field="cattIdPadre" id="c_com_ssigdl_sirc_domain_SsiCategoriaTemporal_cattIdPadre" validationMessageCode="field_invalid_integer" z="Omh/QbTG4c9OALwXWaTJQ+FogZc="/>
+        <field:input field="cattIdHijo" id="c_com_ssigdl_sirc_domain_SsiCategoriaTemporal_cattIdHijo" validationMessageCode="field_invalid_integer" z="WXCwwDd8WmTpSmp+5KYgM/2qrQE="/>
+        <field:input field="cattNivel" id="c_com_ssigdl_sirc_domain_SsiCategoriaTemporal_cattNivel" validationMessageCode="field_invalid_integer" z="nYhKJWhw55A6+I0gDPfa7JFpc3Y="/>
+    </form:update>
+</div>

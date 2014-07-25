@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_ssigdl_sirc_domain_SsiFactura" idField="factId" modelAttribute="ssiFactura" path="/ssifacturas" versionField="none" z="rTK3eGcFjEeA2dmN9L1H3EDnguk=">
+        <field:simple field="ssiFacturaArticuloRels" id="c_com_ssigdl_sirc_domain_SsiFactura_ssiFacturaArticuloRels" messageCode="entity_reference_not_managed" messageCodeAttribute="Ssi Factura Articulo Rel" z="BuO4ZgDRIvD7cTeMJLj+b+K/rXQ="/>
+        <field:simple field="ssiFacturaServicioRels" id="c_com_ssigdl_sirc_domain_SsiFactura_ssiFacturaServicioRels" messageCode="entity_reference_not_managed" messageCodeAttribute="Ssi Factura Servicio Rel" z="oQT29N/u1doqJE+3nKK3a4Xj8gM="/>
+        <field:select field="factEmpIdFk" id="c_com_ssigdl_sirc_domain_SsiFactura_factEmpIdFk" itemValue="empId" items="${ssiempresas}" path="/ssiempresas" z="3OmrhiUjOwecK4TYR7iTq0I0OO4="/>
+        <field:input field="factNumero" id="c_com_ssigdl_sirc_domain_SsiFactura_factNumero" z="AKDPZ6RuCW5I3aCJY37b7cFx9x0="/>
+        <field:input field="factConcepto" id="c_com_ssigdl_sirc_domain_SsiFactura_factConcepto" z="wi/3ppn66GRZvWj8knMhL3Hbrqk="/>
+        <field:datetime dateTimePattern="${ssiFactura_factfecha_date_format}" field="factFecha" id="c_com_ssigdl_sirc_domain_SsiFactura_factFecha" z="r1mU1WgwRrvSwZB+Kl9dNRKPXRw="/>
+        <field:input field="factLugarExpedicion" id="c_com_ssigdl_sirc_domain_SsiFactura_factLugarExpedicion" z="L0pUfx6aKc4xvtUT6WO56pPgYG4="/>
+        <field:input field="factTotal" id="c_com_ssigdl_sirc_domain_SsiFactura_factTotal" validationMessageCode="field_invalid_number" z="Lj2cIn7/UB9RZZ8HRHcG1pJx2k4="/>
+    </form:update>
+</div>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_ssigdl_sirc_domain_SsiEmpresa" object="${ssiempresa}" path="/ssiempresas" z="Uxdp3JbJNzKVswWfHB2dBfMoHx4=">
+        <field:display field="empDireIdFk" id="s_com_ssigdl_sirc_domain_SsiEmpresa_empDireIdFk" object="${ssiempresa}" z="jhka51PJ38ixX+G50ulWsSzdGRY="/>
+        <field:display field="empEmpcIdFk" id="s_com_ssigdl_sirc_domain_SsiEmpresa_empEmpcIdFk" object="${ssiempresa}" z="kWlyYXJayhFwfYpXf2d1PRpcgDw="/>
+        <field:display field="empNombre" id="s_com_ssigdl_sirc_domain_SsiEmpresa_empNombre" object="${ssiempresa}" z="ybjtttB5KE22HHq7mSHxoujrRek="/>
+        <field:display date="true" dateTimePattern="${ssiEmpresa_empfecharegistro_date_format}" field="empFechaRegistro" id="s_com_ssigdl_sirc_domain_SsiEmpresa_empFechaRegistro" object="${ssiempresa}" z="wiod02WUkpLCWyJB0OvXYoS/H7Q="/>
+        <field:display field="empRfc" id="s_com_ssigdl_sirc_domain_SsiEmpresa_empRfc" object="${ssiempresa}" z="33+ZKW4RZ+7nzf0gLs3J07bsJb4="/>
+    </page:show>
+</div>

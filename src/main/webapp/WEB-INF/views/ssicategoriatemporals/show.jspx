@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_ssigdl_sirc_domain_SsiCategoriaTemporal" object="${ssicategoriatemporal}" path="/ssicategoriatemporals" z="9M8FOZejeaIWVibTv1bpziEtooU=">
+        <field:display field="cattIdPadre" id="s_com_ssigdl_sirc_domain_SsiCategoriaTemporal_cattIdPadre" object="${ssicategoriatemporal}" z="zJqCadNmk8WcIcC5Ox6MbECBdBw="/>
+        <field:display field="cattIdHijo" id="s_com_ssigdl_sirc_domain_SsiCategoriaTemporal_cattIdHijo" object="${ssicategoriatemporal}" z="fOeAXHR5JWARlc0zGxFLVi4TpgI="/>
+        <field:display field="cattNivel" id="s_com_ssigdl_sirc_domain_SsiCategoriaTemporal_cattNivel" object="${ssicategoriatemporal}" z="eZiS2My5SjqrrU8QGD2m4M9jAzA="/>
+    </page:show>
+</div>

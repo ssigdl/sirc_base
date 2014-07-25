@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_ssigdl_sirc_domain_SsiDireccionEmpresa" items="${ssidireccionempresas}" z="tZXgKyA2sI6JLJRRme8Jh1g+VHs=">
+        <table:table data="${ssidireccionempresas}" id="l_com_ssigdl_sirc_domain_SsiDireccionEmpresa" path="/ssidireccionempresas" typeIdFieldName="direId" z="Tf0O0DS1SnqRZGdF+RDImM775KM=">
+            <table:column id="c_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direContacto" property="direContacto" z="TyjYQJtdCssUo4wVMN1ZNe1jzYA="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direEmail" property="direEmail" z="4re4owECuTnv4Civ2bhh09Uuix8="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direDireccion" property="direDireccion" z="ViyT+gD7ZhQGjeszGQaB+nwS9Ro="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direColonia" property="direColonia" z="nxC9ChRd7Oz9LZspW1D/fF48u5Q="/>
+        </table:table>
+    </page:list>
+</div>

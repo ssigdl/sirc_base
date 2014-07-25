@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_ssigdl_sirc_domain_SsiDireccionEmpresa" idField="direId" modelAttribute="ssiDireccionEmpresa" path="/ssidireccionempresas" versionField="none" z="gKypiLvZabWNpb3meCBJWVbvr94=">
+        <field:simple field="ssiEmpresas" id="c_com_ssigdl_sirc_domain_SsiDireccionEmpresa_ssiEmpresas" messageCode="entity_reference_not_managed" messageCodeAttribute="Ssi Empresa" z="VW8wMiONnR9HVFXMrtp+Bo7bKeE="/>
+        <field:simple field="ssiTelefonoes" id="c_com_ssigdl_sirc_domain_SsiDireccionEmpresa_ssiTelefonoes" messageCode="entity_reference_not_managed" messageCodeAttribute="Ssi Telefono" z="36tpFEoLWcJ1Iz6fxMQK1Vh03mY="/>
+        <field:input field="direContacto" id="c_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direContacto" z="RDreoR5gI/MrfI4Mt5NpQeJtTp0="/>
+        <field:input field="direEmail" id="c_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direEmail" z="QGo5ysiw8J5FB11AKwY7znOO250="/>
+        <field:input field="direDireccion" id="c_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direDireccion" z="i+sjLwzNBR3UqpNiEpY/MV7HrR4="/>
+        <field:input field="direColonia" id="c_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direColonia" z="nstrRNutAtLMvqx0L6yD3tTu5jc="/>
+        <field:input field="direSucursal" id="c_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direSucursal" z="m5w9r2fDCLE4NIWZwwoM/VHRAC4="/>
+        <field:input field="direMunicipio" id="c_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direMunicipio" z="ELCCEzJt0jsRHRzHcapki5HQHms="/>
+        <field:input field="direEstado" id="c_com_ssigdl_sirc_domain_SsiDireccionEmpresa_direEstado" z="dPUMuY44qIUPV8gJkkgpRkGCahA="/>
+    </form:update>
+</div>

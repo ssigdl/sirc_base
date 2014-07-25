@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_ssigdl_sirc_domain_SsiCategoria" modelAttribute="ssiCategoria" path="/ssicategorias" render="${empty dependencies}" z="ZgbNN23KsnRwqdP+J2WVRZBhFsc=">
+        <field:simple field="ssiArticuloes" id="c_com_ssigdl_sirc_domain_SsiCategoria_ssiArticuloes" messageCode="entity_reference_not_managed" messageCodeAttribute="Ssi Articulo" z="kUJqlxoE0VCdjqpkY77sVUXscUo="/>
+        <field:simple field="ssiCategorias" id="c_com_ssigdl_sirc_domain_SsiCategoria_ssiCategorias" messageCode="entity_reference_not_managed" messageCodeAttribute="Ssi Categoria" z="vsxVYBsRf1NyxqnyDIel2dleXkg="/>
+        <field:simple field="ssiServicios" id="c_com_ssigdl_sirc_domain_SsiCategoria_ssiServicios" messageCode="entity_reference_not_managed" messageCodeAttribute="Ssi Servicio" z="Bkd+1xJ6VZ8jjEjchGVQAsuouzs="/>
+        <field:select field="catSuperIdFk" id="c_com_ssigdl_sirc_domain_SsiCategoria_catSuperIdFk" itemValue="catId" items="${ssicategorias}" path="/ssicategorias" z="pIhrnPyBP10xVLevOHrpfj69FC8="/>
+        <field:input field="catNombre" id="c_com_ssigdl_sirc_domain_SsiCategoria_catNombre" z="oJFZlfM/U1FuIUL9gC6UUzEZcIg="/>
+        <field:input field="catDescripcion" id="c_com_ssigdl_sirc_domain_SsiCategoria_catDescripcion" z="eusxDa3JHCtn6hSY7RoAWKMdUiE="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_ssigdl_sirc_domain_SsiCategoria" render="${not empty dependencies}" z="dnaFCAh6rwfwAEnttafiNaUIT7Y="/>
+</div>

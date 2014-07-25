@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_ssigdl_sirc_domain_SsiFacturaServicioRel" object="${ssifacturaserviciorel}" path="/ssifacturaserviciorels" z="oc7WSs/KxpVJKR/cIXq6pRD8gF4=">
+        <field:display field="faseServIdFk" id="s_com_ssigdl_sirc_domain_SsiFacturaServicioRel_faseServIdFk" object="${ssifacturaserviciorel}" z="U4tUphLLWqwJlyDVamGauFfIZ6Q="/>
+        <field:display field="faseFactIdFk" id="s_com_ssigdl_sirc_domain_SsiFacturaServicioRel_faseFactIdFk" object="${ssifacturaserviciorel}" z="n9J3ZaDPpTPwCJos4l4YwqZWbqg="/>
+    </page:show>
+</div>

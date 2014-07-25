@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_ssigdl_sirc_domain_SsiFactura" items="${ssifacturas}" z="TstG3NdglBP5Rpkr65fPnA456B4=">
+        <table:table data="${ssifacturas}" id="l_com_ssigdl_sirc_domain_SsiFactura" path="/ssifacturas" typeIdFieldName="factId" z="pejQ/CdazEnktpeijrlaeF12yuQ=">
+            <table:column id="c_com_ssigdl_sirc_domain_SsiFactura_factEmpIdFk" property="factEmpIdFk" z="EiZIVx8Ooy4unlK35VvdqtgLhxc="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiFactura_factNumero" property="factNumero" z="785Q2gux6IDBNcJs/55Lm9AvYAY="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiFactura_factConcepto" property="factConcepto" z="MVzlHXFT3ZiS6DBBIJPQUyBEtLI="/>
+            <table:column date="true" dateTimePattern="${ssiFactura_factfecha_date_format}" id="c_com_ssigdl_sirc_domain_SsiFactura_factFecha" property="factFecha" z="Gp8b2XJxSe9ieeLkkQ99XngOhYE="/>
+        </table:table>
+    </page:list>
+</div>

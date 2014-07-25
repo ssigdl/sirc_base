@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_ssigdl_sirc_domain_SsiFacturaArticuloRel" idField="fartId" modelAttribute="ssiFacturaArticuloRel" path="/ssifacturaarticulorels" versionField="none" z="f1uNH6TlbS7DiIQjy5WHu+Uajpk=">
+        <field:select field="fartArtIdFk" id="c_com_ssigdl_sirc_domain_SsiFacturaArticuloRel_fartArtIdFk" itemValue="artId" items="${ssiarticuloes}" path="/ssiarticuloes" z="6TS0S6goTaX6u/OQTmrCrs7iXZg="/>
+        <field:select field="fartFactIdFk" id="c_com_ssigdl_sirc_domain_SsiFacturaArticuloRel_fartFactIdFk" itemValue="factId" items="${ssifacturas}" path="/ssifacturas" z="VKtaas1XoBM5DpnAIG6IiDZ570I="/>
+    </form:update>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_ssigdl_sirc_domain_SsiFactura" object="${ssifactura}" path="/ssifacturas" z="FA8dOlB6wV/iaEIqifSuwZfyxHw=">
+        <field:display field="factEmpIdFk" id="s_com_ssigdl_sirc_domain_SsiFactura_factEmpIdFk" object="${ssifactura}" z="9NGcU6qg5gRQFEc9Zr3k8HoR4m0="/>
+        <field:display field="factNumero" id="s_com_ssigdl_sirc_domain_SsiFactura_factNumero" object="${ssifactura}" z="UucGqYyf2Tm7bioIHcOjgcTZ7vE="/>
+        <field:display field="factConcepto" id="s_com_ssigdl_sirc_domain_SsiFactura_factConcepto" object="${ssifactura}" z="0JmRrFhhZ9QVKpJlUVx4OEqJiZc="/>
+        <field:display date="true" dateTimePattern="${ssiFactura_factfecha_date_format}" field="factFecha" id="s_com_ssigdl_sirc_domain_SsiFactura_factFecha" object="${ssifactura}" z="tC/A9nGkeUHFm2bIiWPNGvdvdC8="/>
+        <field:display field="factLugarExpedicion" id="s_com_ssigdl_sirc_domain_SsiFactura_factLugarExpedicion" object="${ssifactura}" z="xCN9OrnV8RYzD8aDqPRoSFTaQLM="/>
+        <field:display field="factTotal" id="s_com_ssigdl_sirc_domain_SsiFactura_factTotal" object="${ssifactura}" z="gI5eCXAIJ/0WFihbcxVuJcY/q/w="/>
+    </page:show>
+</div>

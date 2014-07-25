@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_ssigdl_sirc_domain_SsiCheque" object="${ssicheque}" path="/ssicheques" z="touWeFjABQDbSd0Jga66dsKO8hE=">
+        <field:display field="cheNumero" id="s_com_ssigdl_sirc_domain_SsiCheque_cheNumero" object="${ssicheque}" z="AVTLnztpBjoI0miMPK+sLYime2Y="/>
+        <field:display date="true" dateTimePattern="${ssiCheque_chefecha_date_format}" field="cheFecha" id="s_com_ssigdl_sirc_domain_SsiCheque_cheFecha" object="${ssicheque}" z="OMdav83HPoEHvItgfxLdRqVjFmA="/>
+        <field:display field="cheMonto" id="s_com_ssigdl_sirc_domain_SsiCheque_cheMonto" object="${ssicheque}" z="yby269lD/H4Hn61pE89gFlxY89U="/>
+        <field:display field="cheReceptor" id="s_com_ssigdl_sirc_domain_SsiCheque_cheReceptor" object="${ssicheque}" z="7CB82kZiDva+eNztawVgY4V+ABE="/>
+        <field:display field="cheConcepto" id="s_com_ssigdl_sirc_domain_SsiCheque_cheConcepto" object="${ssicheque}" z="oc3pXOvKF2Nc2gSPo0jcHTY0Sp0="/>
+    </page:show>
+</div>

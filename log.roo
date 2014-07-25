@@ -6,3 +6,5 @@ persistence setup --provider HIBERNATE --database MYSQL --userName root --passwo
 addon install bundle --bundleSymbolicName org.springframework.roo.wrapping.mysql-connector-java
 osgi start --url file:///C:/lib/mysql-connector-java-5.1.29-bin.jar
 database reverse engineer --schema ssigdl --package ~.domain --testAutomatically --enableViews --activeRecord  --includeNonPortableAttributes
+web mvc setup
+web mvc all --package ~.web

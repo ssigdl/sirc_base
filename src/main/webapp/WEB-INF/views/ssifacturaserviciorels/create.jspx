@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_ssigdl_sirc_domain_SsiFacturaServicioRel" modelAttribute="ssiFacturaServicioRel" path="/ssifacturaserviciorels" render="${empty dependencies}" z="5h9Z9pQ2AHT2PfC7jyL/UMr0D6Q=">
+        <field:select field="faseServIdFk" id="c_com_ssigdl_sirc_domain_SsiFacturaServicioRel_faseServIdFk" itemValue="factId" items="${ssifacturas}" path="/ssifacturas" z="iwPZxQjdlGI49IicjefCf3EX2iU="/>
+        <field:select field="faseFactIdFk" id="c_com_ssigdl_sirc_domain_SsiFacturaServicioRel_faseFactIdFk" itemValue="servId" items="${ssiservicios}" path="/ssiservicios" z="MVc3XjQNX1s4qB2qyHJFN0y01hU="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_ssigdl_sirc_domain_SsiFacturaServicioRel" render="${not empty dependencies}" z="cEaiWfej5m3L4OHLFTpSc92oOMw="/>
+</div>

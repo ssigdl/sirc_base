@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_ssigdl_sirc_domain_SsiArticulo" object="${ssiarticulo}" path="/ssiarticuloes" z="4L0biBJYkhgpJBVERO9zP9UawxE=">
+        <field:display field="artCatIdFk" id="s_com_ssigdl_sirc_domain_SsiArticulo_artCatIdFk" object="${ssiarticulo}" z="Dbe2rexovJdd5J9bHicVx7rMTjY="/>
+        <field:display field="artArumIdFk" id="s_com_ssigdl_sirc_domain_SsiArticulo_artArumIdFk" object="${ssiarticulo}" z="5jSJPBoa+YB/xYmS6XEgLRyhdNk="/>
+        <field:display field="artNombreProducto" id="s_com_ssigdl_sirc_domain_SsiArticulo_artNombreProducto" object="${ssiarticulo}" z="w3mmWfO4tGzmAjb8m7ocI52CfEg="/>
+        <field:display field="artMarca" id="s_com_ssigdl_sirc_domain_SsiArticulo_artMarca" object="${ssiarticulo}" z="AcemXHEoXMsihkmwTDO3jjyrIqE="/>
+        <field:display field="artDescripcion" id="s_com_ssigdl_sirc_domain_SsiArticulo_artDescripcion" object="${ssiarticulo}" z="/deEDlX5cqALC109mhiEoPkoJpo="/>
+        <field:display field="artCantidad" id="s_com_ssigdl_sirc_domain_SsiArticulo_artCantidad" object="${ssiarticulo}" z="Q2Z3RjjGi1v8lJgQ7/orz/mg0CQ="/>
+        <field:display field="artPrecioUnitario" id="s_com_ssigdl_sirc_domain_SsiArticulo_artPrecioUnitario" object="${ssiarticulo}" z="RwBn2dH18tsn4WGTXStBgbqsXCs="/>
+        <field:display field="artSubtotal" id="s_com_ssigdl_sirc_domain_SsiArticulo_artSubtotal" object="${ssiarticulo}" z="VZhWcTdWOIl5mFQKvp1OWd3L8dw="/>
+        <field:display field="artImagen" id="s_com_ssigdl_sirc_domain_SsiArticulo_artImagen" object="${ssiarticulo}" z="z6mjUAmbnTY7ZvyXufaXDPHHgWc="/>
+    </page:show>
+</div>

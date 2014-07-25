@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_ssigdl_sirc_domain_SsiCategoriaTemporal" items="${ssicategoriatemporals}" z="KVv9GACzVtIK2f0L+ai/K7UuDnU=">
+        <table:table data="${ssicategoriatemporals}" id="l_com_ssigdl_sirc_domain_SsiCategoriaTemporal" path="/ssicategoriatemporals" typeIdFieldName="cattId" z="FcTSIeVuAtwhOIC5/m2rotiw69Y=">
+            <table:column id="c_com_ssigdl_sirc_domain_SsiCategoriaTemporal_cattIdPadre" property="cattIdPadre" z="HOSaBNnsVGm8OZXKSMlL+SId+1c="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiCategoriaTemporal_cattIdHijo" property="cattIdHijo" z="OPvmpe44FGUShH6FMdQICexkRDU="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiCategoriaTemporal_cattNivel" property="cattNivel" z="iG4Y88U67bsY3dZqLuc0QcNawns="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_ssigdl_sirc_domain_SsiEmpresa" items="${ssiempresas}" z="ROfaFHaV8Yua6/WvtQAs/fBrtu4=">
+        <table:table data="${ssiempresas}" id="l_com_ssigdl_sirc_domain_SsiEmpresa" path="/ssiempresas" typeIdFieldName="empId" z="2VEQ65fbgnj5i1tzZFeYUu/BtBk=">
+            <table:column id="c_com_ssigdl_sirc_domain_SsiEmpresa_empDireIdFk" property="empDireIdFk" z="sZB6e4+fDyO7LYFOzOaGtddRjvo="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiEmpresa_empEmpcIdFk" property="empEmpcIdFk" z="TD4NocVIi9A0571+9xBvv/S1xfg="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiEmpresa_empNombre" property="empNombre" z="zm3wfAGOY+Nwgz7EBrRz3UCajTQ="/>
+            <table:column date="true" dateTimePattern="${ssiEmpresa_empfecharegistro_date_format}" id="c_com_ssigdl_sirc_domain_SsiEmpresa_empFechaRegistro" property="empFechaRegistro" z="Wg2fDgGNMB0UHmdDqEVlyYXnr9o="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiEmpresa_empRfc" property="empRfc" z="gFHJI2CzkaAW31f7DN6Dzz/snTI="/>
+        </table:table>
+    </page:list>
+</div>

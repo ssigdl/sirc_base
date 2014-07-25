@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_ssigdl_sirc_domain_SsiCheque" modelAttribute="ssiCheque" path="/ssicheques" render="${empty dependencies}" z="ythAk5ojfzHIbf+RxsG63EaXMTY=">
+        <field:input field="cheNumero" id="c_com_ssigdl_sirc_domain_SsiCheque_cheNumero" z="aWJ3YUbrF1zATD8ApKGnEQKeEGQ="/>
+        <field:datetime dateTimePattern="${ssiCheque_chefecha_date_format}" field="cheFecha" id="c_com_ssigdl_sirc_domain_SsiCheque_cheFecha" z="4f6mFGzqcIO6QBnVhSy89miIpQY="/>
+        <field:input field="cheMonto" id="c_com_ssigdl_sirc_domain_SsiCheque_cheMonto" validationMessageCode="field_invalid_number" z="1FxT5Gk+9Eo3BPiPRAVCNMPMejo="/>
+        <field:input field="cheReceptor" id="c_com_ssigdl_sirc_domain_SsiCheque_cheReceptor" z="+mBPES2UK7zJHczKdr7497PLpzw="/>
+        <field:input field="cheConcepto" id="c_com_ssigdl_sirc_domain_SsiCheque_cheConcepto" z="DpT3cOeUtRVZbDp8dTjRMgSp3I0="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_ssigdl_sirc_domain_SsiCheque" render="${not empty dependencies}" z="FQDL9HvYCrlFb+x/+9U9G4v5V8Q="/>
+</div>

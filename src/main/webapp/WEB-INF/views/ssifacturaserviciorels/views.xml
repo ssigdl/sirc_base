@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="default" name="ssifacturaserviciorels/list">
+        <put-attribute name="body" value="/WEB-INF/views/ssifacturaserviciorels/list.jspx"/>
+    </definition>
+<definition extends="default" name="ssifacturaserviciorels/show">
+        <put-attribute name="body" value="/WEB-INF/views/ssifacturaserviciorels/show.jspx"/>
+    </definition>
+<definition extends="default" name="ssifacturaserviciorels/create">
+        <put-attribute name="body" value="/WEB-INF/views/ssifacturaserviciorels/create.jspx"/>
+    </definition>
+<definition extends="default" name="ssifacturaserviciorels/update">
+        <put-attribute name="body" value="/WEB-INF/views/ssifacturaserviciorels/update.jspx"/>
+    </definition>
+</tiles-definitions>

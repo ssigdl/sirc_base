@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_ssigdl_sirc_domain_SsiCategoria" items="${ssicategorias}" z="Yl8CPZa1kv7Td+95o3/nck30NIs=">
+        <table:table data="${ssicategorias}" id="l_com_ssigdl_sirc_domain_SsiCategoria" path="/ssicategorias" typeIdFieldName="catId" z="h8Xbeb2gxJslaXlb7DOptHYtt1Q=">
+            <table:column id="c_com_ssigdl_sirc_domain_SsiCategoria_catSuperIdFk" property="catSuperIdFk" z="2ehZWpImxhjyMVtxHenUQB5+BHI="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiCategoria_catNombre" property="catNombre" z="MJ+zlPMAaMbBufsLvHOd6yIWfW0="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiCategoria_catDescripcion" property="catDescripcion" z="avD+SLWO2Ba8g7SriPxrHpFaZcc="/>
+        </table:table>
+    </page:list>
+</div>

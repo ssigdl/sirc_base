@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_ssigdl_sirc_domain_SsiArticulo" items="${ssiarticuloes}" z="mGBuH4EShfVXCcseELMH1FebVpI=">
+        <table:table data="${ssiarticuloes}" id="l_com_ssigdl_sirc_domain_SsiArticulo" path="/ssiarticuloes" typeIdFieldName="artId" z="wtt4qutGgMElaq4IHQv3DqY1NzI=">
+            <table:column id="c_com_ssigdl_sirc_domain_SsiArticulo_artCatIdFk" property="artCatIdFk" z="GIBEbFZFedBpbFaHi2hQtdpQsQM="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiArticulo_artArumIdFk" property="artArumIdFk" z="/vldpqAXkxzLjjccEMfyYKBh2/M="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiArticulo_artNombreProducto" property="artNombreProducto" z="ETGTD2NSJLxWovyuOAOuie9oi6Y="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiArticulo_artMarca" property="artMarca" z="30Ot+WiHmuUKgrdpD2YJluksxpY="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiArticulo_artDescripcion" property="artDescripcion" z="TJCJ4m08MNSah56phZRIdQBCvDw="/>
+        </table:table>
+    </page:list>
+</div>

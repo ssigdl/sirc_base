@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_ssitelefonocat" z="7zp4WqcXgC6rFB4OqgsDbstQUzQ=">
+            <menu:item id="i_ssitelefonocat_new" messageCode="global_menu_new" url="/ssitelefonocats?form" z="KJPn9bI6BJ4fa5XS8cKjH0o7cBw="/>
+            <menu:item id="i_ssitelefonocat_list" messageCode="global_menu_list" url="/ssitelefonocats?page=1&amp;size=${empty param.size ? 10 : param.size}" z="7NWArcDDMcnHK3m8YaR5vpd32fs="/>
+        </menu:category>
+        <menu:category id="c_ssicategoria" z="vEXnCA3IOi3Evo3T//fJi5g17Rs=">
+            <menu:item id="i_ssicategoria_new" messageCode="global_menu_new" url="/ssicategorias?form" z="616nBDcozYob6/tD2peYG7AKF3c="/>
+            <menu:item id="i_ssicategoria_list" messageCode="global_menu_list" url="/ssicategorias?page=1&amp;size=${empty param.size ? 10 : param.size}" z="iRJR9umx0C18UmJVKAhbIpn853A="/>
+        </menu:category>
+        <menu:category id="c_ssiservicio" z="jtYHwSzSka2BOq0UrieKI90sWek=">
+            <menu:item id="i_ssiservicio_new" messageCode="global_menu_new" url="/ssiservicios?form" z="m9+SZQvG17CmB0geL4oJryah1fI="/>
+            <menu:item id="i_ssiservicio_list" messageCode="global_menu_list" url="/ssiservicios?page=1&amp;size=${empty param.size ? 10 : param.size}" z="B2arc4/PRLclcJV6u5P41RubFSA="/>
+        </menu:category>
+        <menu:category id="c_ssicheque" z="hiI0GOw+h0JxgvrKO/6yAlj+KWs=">
+            <menu:item id="i_ssicheque_new" messageCode="global_menu_new" url="/ssicheques?form" z="0uWHm33bTAh2ik+YplW4TPRPP9Q="/>
+            <menu:item id="i_ssicheque_list" messageCode="global_menu_list" url="/ssicheques?page=1&amp;size=${empty param.size ? 10 : param.size}" z="vT2j8yT9+0qhRhyGAeGFpY5RM2E="/>
+        </menu:category>
+        <menu:category id="c_ssifacturaarticulorel" z="muZJKT/a6PE9oMuTLlqdvZcwcsw=">
+            <menu:item id="i_ssifacturaarticulorel_new" messageCode="global_menu_new" url="/ssifacturaarticulorels?form" z="XN49ITRlFMlzEkQVI7oHJatg1c4="/>
+            <menu:item id="i_ssifacturaarticulorel_list" messageCode="global_menu_list" url="/ssifacturaarticulorels?page=1&amp;size=${empty param.size ? 10 : param.size}" z="S5806Tzb7ym3fMziG3fCP3ZlMoQ="/>
+        </menu:category>
+        <menu:category id="c_ssifactura" z="ZPaSHNr7b6ce2IZ34NbpfJqqF9g=">
+            <menu:item id="i_ssifactura_new" messageCode="global_menu_new" url="/ssifacturas?form" z="puOZPU1+KLB01QvV5kYmxnHyxPs="/>
+            <menu:item id="i_ssifactura_list" messageCode="global_menu_list" url="/ssifacturas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="V8bdWbTzSXhASbVXDPmUE2+/VDA="/>
+        </menu:category>
+        <menu:category id="c_ssiarticulounidadmedida" z="h9gGclLyQRYywT0lDn6q37pCMnE=">
+            <menu:item id="i_ssiarticulounidadmedida_new" messageCode="global_menu_new" url="/ssiarticulounidadmedidas?form" z="+WEWAjM+VILhu7thlKYDEAenXtw="/>
+            <menu:item id="i_ssiarticulounidadmedida_list" messageCode="global_menu_list" url="/ssiarticulounidadmedidas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="cQNtIAiZsAxGOSvmDCli6leYL3Y="/>
+        </menu:category>
+        <menu:category id="c_ssitelefono" z="dkyo+HHVTUQ7nX5EwKGyBz+2upU=">
+            <menu:item id="i_ssitelefono_new" messageCode="global_menu_new" url="/ssitelefonoes?form" z="k1xEq3+ZuuO7DEVfIPORv6uOpfU="/>
+            <menu:item id="i_ssitelefono_list" messageCode="global_menu_list" url="/ssitelefonoes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="NM8mmEZI3gjJPkTNfSCDGgVNPTM="/>
+        </menu:category>
+        <menu:category id="c_ssiempresacat" z="VflheU/Npr3jBOW918Z/eAEJzYg=">
+            <menu:item id="i_ssiempresacat_new" messageCode="global_menu_new" url="/ssiempresacats?form" z="bIWSJJbFPmHz0SrT6abMxyCQHOE="/>
+            <menu:item id="i_ssiempresacat_list" messageCode="global_menu_list" url="/ssiempresacats?page=1&amp;size=${empty param.size ? 10 : param.size}" z="8LP988ndBeQYzPOrTMSEMadGgEA="/>
+        </menu:category>
+        <menu:category id="c_ssicategoriatemporal" z="ZX/hmkDHWRdqPBrWyk9aeqLJddQ=">
+            <menu:item id="i_ssicategoriatemporal_new" messageCode="global_menu_new" url="/ssicategoriatemporals?form" z="92LFVA8DH3K79PaGU0hRMcNGi9Q="/>
+            <menu:item id="i_ssicategoriatemporal_list" messageCode="global_menu_list" url="/ssicategoriatemporals?page=1&amp;size=${empty param.size ? 10 : param.size}" z="hdL3FIchCQe5n6ZeUgQPY/e8TsM="/>
+        </menu:category>
+        <menu:category id="c_ssidireccionempresa" z="1T9MRRIQsMnATfOTSztG1DVIJpc=">
+            <menu:item id="i_ssidireccionempresa_new" messageCode="global_menu_new" url="/ssidireccionempresas?form" z="apFCm6tSkovuPzj8GvcZPO3tzH8="/>
+            <menu:item id="i_ssidireccionempresa_list" messageCode="global_menu_list" url="/ssidireccionempresas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Vc+HCZ3vv6hOlBuqlSeEaaltwG8="/>
+        </menu:category>
+        <menu:category id="c_ssifacturaserviciorel" z="x2tOEL4aBt5uaLS7BD/GRhD2DqA=">
+            <menu:item id="i_ssifacturaserviciorel_new" messageCode="global_menu_new" url="/ssifacturaserviciorels?form" z="pCO/tmt844n9d8M00xGOd4AhHkg="/>
+            <menu:item id="i_ssifacturaserviciorel_list" messageCode="global_menu_list" url="/ssifacturaserviciorels?page=1&amp;size=${empty param.size ? 10 : param.size}" z="vebPTRjF7ZZIvJiQCTUxGjjjiDI="/>
+        </menu:category>
+        <menu:category id="c_ssiarticulo" z="aTOxf1AIoo071oBOi76ECrIi65I=">
+            <menu:item id="i_ssiarticulo_new" messageCode="global_menu_new" url="/ssiarticuloes?form" z="lRmfwKNrXdGMvjvDeLVhqhDjppc="/>
+            <menu:item id="i_ssiarticulo_list" messageCode="global_menu_list" url="/ssiarticuloes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="zbft3S74HrvmeQgy6kU/3lQYAjE="/>
+        </menu:category>
+        <menu:category id="c_ssiempresa" z="EkD3QPHNSkPjNt8TonIieHEYUmY=">
+            <menu:item id="i_ssiempresa_new" messageCode="global_menu_new" url="/ssiempresas?form" z="v4E7WnNc2l3WKLFOxavShLmDuWo="/>
+            <menu:item id="i_ssiempresa_list" messageCode="global_menu_list" url="/ssiempresas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="Aqw97iE6vVJGVaYtAtIQ76AF7Lc="/>
+        </menu:category>
+    </menu:menu>
+</div>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_ssigdl_sirc_domain_SsiTelefonoCat" items="${ssitelefonocats}" z="ltEYDOLY8UiufBfERaMn/ZSgTBU=">
+        <table:table data="${ssitelefonocats}" id="l_com_ssigdl_sirc_domain_SsiTelefonoCat" path="/ssitelefonocats" typeIdFieldName="telcId" z="NR9D7AKh1bdme1HhWPMFrIEatsw=">
+            <table:column id="c_com_ssigdl_sirc_domain_SsiTelefonoCat_telcDescripcion" property="telcDescripcion" z="VBLVVb7nogBdDAm71zlCxVHAC2Y="/>
+        </table:table>
+    </page:list>
+</div>

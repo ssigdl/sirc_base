@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_ssigdl_sirc_domain_SsiServicio" items="${ssiservicios}" z="ef33dgmUiauokrxTJUX32q9nTnQ=">
+        <table:table data="${ssiservicios}" id="l_com_ssigdl_sirc_domain_SsiServicio" path="/ssiservicios" typeIdFieldName="servId" z="CWh4gLFYHuJCCI6BRE3Ab0JHEkQ=">
+            <table:column id="c_com_ssigdl_sirc_domain_SsiServicio_servCatIdFk" property="servCatIdFk" z="E7MZjtX/NPCbMuW6W9Dy3khKAmI="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiServicio_servNombre" property="servNombre" z="p2ouMcizd2KQXExmjGbgj30Q3y8="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiServicio_servDescripcion" property="servDescripcion" z="PXwDSlw1WFZq8KsNk21IWzvEI04="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiServicio_servPrecio" property="servPrecio" z="nN1APMetgDqu83Chi3Z077S7a84="/>
+            <table:column id="c_com_ssigdl_sirc_domain_SsiServicio_servImagen" property="servImagen" z="2cF4FG1ZTXlyhraRjOunn5FmGo4="/>
+        </table:table>
+    </page:list>
+</div>

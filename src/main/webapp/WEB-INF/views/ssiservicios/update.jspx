@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_ssigdl_sirc_domain_SsiServicio" idField="servId" modelAttribute="ssiServicio" path="/ssiservicios" versionField="none" z="AqjmTbP3IEpSdVr1YPUhXtwIkSs=">
+        <field:simple field="ssiFacturaServicioRels" id="c_com_ssigdl_sirc_domain_SsiServicio_ssiFacturaServicioRels" messageCode="entity_reference_not_managed" messageCodeAttribute="Ssi Factura Servicio Rel" z="/uKCv0vp0EsyFeZb255Cok9DHpA="/>
+        <field:select field="servCatIdFk" id="c_com_ssigdl_sirc_domain_SsiServicio_servCatIdFk" itemValue="catId" items="${ssicategorias}" path="/ssicategorias" z="rtQ6kZf5Xvyrfb2/mr9W8Rw8hbA="/>
+        <field:input field="servNombre" id="c_com_ssigdl_sirc_domain_SsiServicio_servNombre" z="KiZZlLzAd/1LNQ7v+6uK5Bk+/6Q="/>
+        <field:input field="servDescripcion" id="c_com_ssigdl_sirc_domain_SsiServicio_servDescripcion" z="/uP4KCwO10uWcMXi8IUyoAKb0aM="/>
+        <field:input field="servPrecio" id="c_com_ssigdl_sirc_domain_SsiServicio_servPrecio" validationMessageCode="field_invalid_number" z="g+Ns0rJWrD82e3Old5O9JfgbKjc="/>
+        <field:input field="servImagen" id="c_com_ssigdl_sirc_domain_SsiServicio_servImagen" z="ePY2MAe91/GfKSGLKycAzutS1ks="/>
+    </form:update>
+</div>
