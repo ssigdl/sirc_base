@@ -1,3 +1,8 @@
 // Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-07-24 17:28:38
 project --topLevelPackage com.ssigdl.sirc --projectName sirc --java 7 --packaging WAR
 // Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-07-24 17:28:52
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-07-25 09:11:03
+persistence setup --provider HIBERNATE --database MYSQL --userName root --password proyecto1 --databaseName ssigdl
+addon install bundle --bundleSymbolicName org.springframework.roo.wrapping.mysql-connector-java
+osgi start --url file:///C:/lib/mysql-connector-java-5.1.29-bin.jar
+database reverse engineer --schema ssigdl --package ~.domain --testAutomatically --enableViews --activeRecord  --includeNonPortableAttributes
