@@ -21,4 +21,8 @@
     <put-attribute name="body" value="/WEB-INF/views/uncaughtException.jspx" />
   </definition>
 
+  <definition name="pruebas" extends="public">
+    <put-attribute name="body" value="/WEB-INF/views/pruebas.jspx" />
+  </definition>
+
 </tiles-definitions>
